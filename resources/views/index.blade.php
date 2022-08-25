@@ -1,4 +1,4 @@
-@extends('layouts.app', ['custom_content' => true])
+@extends('layouts.app')
 
 @section('title', 'Sign In')
 
@@ -46,7 +46,7 @@
                 <button type="submit" class="btn btn-primary btn-lg btn-block mb-4">Sign in</button>
                 <!-- Register buttons -->
                 <div class="text-center">
-                    <p>Don't you have an account? <a href="{{ route('auth.register') }}">Register</a></p>
+                    <p>Don't you have an account? <a href="{{ route('auth.signup') }}">Register</a></p>
                 </div>
             </form>
         </div>

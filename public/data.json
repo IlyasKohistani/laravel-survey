@@ -1,0 +1,17 @@
+{
+    "categories": {
+        "1": {
+            "text": "Fast Shopper",
+            "description": "Customers who want to complete the purchase as quickly as possible."
+        },
+        "2": {
+            "text": "Value Shopper",
+            "description": "Customers who are looking for the best price and try to maximize every dollar spent."
+        },
+        "3": {
+            "text": "Inspiration Shopper",
+            "description": "Customers who are inspired by the shopping experience and want to discover new products."
+        }
+    },
+    "questions": {}
+}

@@ -1,6 +1,6 @@
-@extends('layouts.app', ['custom_content' => true])
+@extends('layouts.app')
 
-@section('title', 'Sign In')
+@section('title', 'Sign Up')
 
 
 @section('content')
@@ -11,7 +11,8 @@
         alt="Phone image">
     </div>
     <div class="col-md-7 col-lg-5 col-xl-5 offset-xl-1">
-      <form>
+      <form action="{{ route('auth.register') }}" method="post">
+        @csrf
         <div class="d-flex align-items-center mb-3 pb-1">
           <i class="fas fa-cubes fa-2x me-3 text-primary"></i>
           <span class="h1 fw-bold mb-0">Sign Up</span>
@@ -23,13 +24,13 @@
 
         <!-- Name input -->
         <div class="form-outline mb-4">
-          <input type="text" id="name" name="name" class="form-control" />
+          <input type="text" id="name" name="name" value="{{ old('name') }}" class="form-control" />
           <label class="form-label" for="name">Full Name</label>
         </div>
 
         <!-- Email input -->
         <div class="form-outline mb-4">
-          <input type="email" id="email" name="email" class="form-control" />
+          <input type="email" id="email" name="email" value="{{ old('email') }}" class="form-control" />
           <label class="form-label" for="email">Email</label>
         </div>
 
@@ -47,7 +48,7 @@
 
         <!-- Agreement -->
         <div class="form-check d-flex justify-content-center mb-4">
-          <input class="form-check-input me-2" type="checkbox" value="" id="agreement" name="agreement" checked
+          <input class="form-check-input me-2" type="checkbox" id="agreement" name="agreement" checked
             aria-describedby="registerCheckHelpText" />
           <label class="form-check-label" for="agreement">
             I have read and agree to the terms

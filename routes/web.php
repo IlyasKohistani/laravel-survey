@@ -2,6 +2,7 @@
 
 use App\Http\Controllers\AuthController;
 use App\Http\Controllers\DashboardController;
+use App\Http\Controllers\SurveyController;
 use Illuminate\Support\Facades\Route;
 
 /*
@@ -19,13 +20,16 @@ use Illuminate\Support\Facades\Route;
 // Guest Routes
 Route::middleware(['guest'])->name('auth.')->controller(AuthController::class)->group(function () {
     Route::get('/', 'index')->name('login');
-    Route::get('/register', 'signup')->name('register');
+    Route::get('/signup', 'signup')->name('signup');
+    Route::post('/register', 'register')->name('register');
     Route::post('/authenticate', 'authenticate')->name('authenticate');
 });
 
 
 // Authenticated Routes
-
 Route::middleware(['auth'])->group(function () {
+    Route::get('logout', [AuthController::class, 'logout'])->name('auth.logout');
     Route::get('dashboard', [DashboardController::class, 'index'])->name('dashboard.index');
+    Route::get('latest-surveys', [SurveyController::class, 'index'])->name('surveys.index');
+    Route::get('take-survey', [SurveyController::class, 'create'])->name('surveys.take');
 });

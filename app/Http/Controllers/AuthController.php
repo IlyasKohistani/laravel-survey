@@ -43,7 +43,7 @@ class AuthController extends Controller
             'name' => ['required', 'string', 'min:3'],
             'email' => ['required', 'email'],
             'password' => ['required', 'string', 'min:8', 'confirmed'],
-            'agreement' => ['required', 'boolean'],
+            'agreement' => ['required'],
         ]);
 
         try {
@@ -51,11 +51,14 @@ class AuthController extends Controller
             $user->fill($data);
             $user->password = bcrypt($request->password);
             $user->save();
+
+            // Authenticate User 
+            auth()->login($user);
         } catch (\Throwable $th) {
             return redirect()->back()->withInput($request->all())->withErrors(['error' => 'An error occured while registering.']);
         }
 
-        return redirect()->route('users.index')->with(['success' => 'User has been created successfully.']);
+        return redirect()->route('dashboard.index');
     }
 
     /**
