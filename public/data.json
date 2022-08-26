@@ -495,6 +495,1934 @@
                     }
                 }
             }
+        },
+        "2": {
+            "text": "How do you usually shop?",
+            "answers": {
+                "1": {
+                    "answer": "Super markets.",
+                    "category_id": "1",
+                    "questions": {
+                        "2": {
+                            "text": "How much does it often costs you?",
+                            "answers": {
+                                "1": {
+                                    "answer": "100$+",
+                                    "category_id": "3"
+                                },
+                                "2": {
+                                    "answer": "50$-100$",
+                                    "category_id": "1"
+                                },
+                                "3": {
+                                    "answer": "Under 50$",
+                                    "category_id": "2"
+                                }
+                            }
+                        },
+                        "3": {
+                            "text": "How often do you go for shopping?",
+                            "answers": {
+                                "1": {
+                                    "answer": "9 days in a month.",
+                                    "category_id": "2"
+                                },
+                                "2": {
+                                    "answer": "2 hours in a week.",
+                                    "category_id": "1"
+                                },
+                                "3": {
+                                    "answer": "Only new arrivals/trends.",
+                                    "category_id": "3"
+                                }
+                            }
+                        },
+                        "1": {
+                            "text": "Where do you go shopping in 2 hours?",
+                            "answers": {
+                                "1": {
+                                    "answer": "Thrift stores.",
+                                    "category_id": "2"
+                                },
+                                "2": {
+                                    "answer": "Fast Fashion  Brands.",
+                                    "category_id": "1"
+                                },
+                                "3": {
+                                    "answer": "High end fashion boutiques.",
+                                    "category_id": "3"
+                                }
+                            }
+                        },
+                        "4": {
+                            "text": "Do you usually look for price tags?",
+                            "answers": {
+                                "1": {
+                                    "answer": "Sometimes.",
+                                    "category_id": "1"
+                                },
+                                "2": {
+                                    "answer": "No.",
+                                    "category_id": "3"
+                                },
+                                "3": {
+                                    "answer": "Yes.",
+                                    "category_id": "2"
+                                }
+                            }
+                        },
+                        "5": {
+                            "text": "What fits do you usually look for?",
+                            "answers": {
+                                "1": {
+                                    "answer": "Oversized.",
+                                    "category_id": "1"
+                                },
+                                "2": {
+                                    "answer": "Slim fits.",
+                                    "category_id": "2"
+                                },
+                                "3": {
+                                    "answer": "Regular fits.",
+                                    "category_id": "3"
+                                }
+                            }
+                        },
+                        "6": {
+                            "text": "What colour catches your eyes the most?",
+                            "answers": {
+                                "1": {
+                                    "answer": "Neutral.",
+                                    "category_id": "1"
+                                },
+                                "2": {
+                                    "answer": "Cold-toned.",
+                                    "category_id": "3"
+                                },
+                                "3": {
+                                    "answer": "Warm-toned.",
+                                    "category_id": "2"
+                                }
+                            }
+                        },
+                        "7": {
+                            "text": "Are you concerned about fashion?",
+                            "answers": {
+                                "1": {
+                                    "answer": "Definitly.",
+                                    "category_id": "3"
+                                },
+                                "2": {
+                                    "answer": "Somehow.",
+                                    "category_id": "1"
+                                },
+                                "3": {
+                                    "answer": "No.",
+                                    "category_id": "2"
+                                }
+                            }
+                        },
+                        "8": {
+                            "text": "What type of cloths do you usually wear?",
+                            "answers": {
+                                "1": {
+                                    "answer": "Formal.",
+                                    "category_id": "2"
+                                },
+                                "2": {
+                                    "answer": "Trendy.",
+                                    "category_id": "3"
+                                },
+                                "3": {
+                                    "answer": "Casual.",
+                                    "category_id": "1"
+                                }
+                            }
+                        },
+                        "9": {
+                            "text": "Which fabric do you usually look for?",
+                            "answers": {
+                                "1": {
+                                    "answer": "Lether.",
+                                    "category_id": "1"
+                                },
+                                "2": {
+                                    "answer": "Silk.",
+                                    "category_id": "3"
+                                },
+                                "3": {
+                                    "answer": "Cotton.",
+                                    "category_id": "2"
+                                }
+                            }
+                        }
+                    }
+                },
+                "2": {
+                    "answer": "Online.",
+                    "category_id": "2",
+                    "questions": {
+                        "1": {
+                            "text": "Which are the places you buy most of your clothes from?",
+                            "answers": {
+                                "1": {
+                                    "answer": "Fashion shows and exhibitions.",
+                                    "category_id": "3"
+                                },
+                                "2": {
+                                    "answer": "Branded retail outlets.",
+                                    "category_id": "1"
+                                },
+                                "3": {
+                                    "answer": "Supermarkets.",
+                                    "category_id": "2"
+                                }
+                            }
+                        },
+                        "2": {
+                            "text": "Fashion to you is?",
+                            "answers": {
+                                "1": {
+                                    "answer": "Money.",
+                                    "category_id": "2"
+                                },
+                                "2": {
+                                    "answer": "Looking cool and hip.",
+                                    "category_id": "1"
+                                },
+                                "3": {
+                                    "answer": "A way to express your innerself.",
+                                    "category_id": "3"
+                                }
+                            }
+                        },
+                        "3": {
+                            "text": "What aspect of the product satisfies you?",
+                            "answers": {
+                                "1": {
+                                    "answer": "Price.",
+                                    "category_id": "2"
+                                },
+                                "2": {
+                                    "answer": "Quality.",
+                                    "category_id": "1"
+                                },
+                                "3": {
+                                    "answer": "Looks.",
+                                    "category_id": "3"
+                                }
+                            }
+                        },
+                        "4": {
+                            "text": "Do you agree the way you look is a part of your personality?",
+                            "answers": {
+                                "1": {
+                                    "answer": "Neutral.",
+                                    "category_id": "2"
+                                },
+                                "2": {
+                                    "answer": "Strongly Agree.",
+                                    "category_id": "3"
+                                },
+                                "3": {
+                                    "answer": "Agree.",
+                                    "category_id": "1"
+                                }
+                            }
+                        },
+                        "5": {
+                            "text": "Why do you most often buy new clothes?",
+                            "answers": {
+                                "1": {
+                                    "answer": "Replacing worn-out clothes.",
+                                    "category_id": "2"
+                                },
+                                "2": {
+                                    "answer": "To enrich my wardrobe.",
+                                    "category_id": "3"
+                                },
+                                "3": {
+                                    "answer": "As a gift.",
+                                    "category_id": "1"
+                                }
+                            }
+                        },
+                        "6": {
+                            "text": "How much do you spend on clothings a month?",
+                            "answers": {
+                                "1": {
+                                    "answer": "Under 50$",
+                                    "category_id": "2"
+                                },
+                                "2": {
+                                    "answer": "200$+",
+                                    "category_id": "3"
+                                },
+                                "3": {
+                                    "answer": "50$-200$",
+                                    "category_id": "1"
+                                }
+                            }
+                        },
+                        "7": {
+                            "text": "What do you think of fashion shows?",
+                            "answers": {
+                                "1": {
+                                    "answer": "They are boring.",
+                                    "category_id": "1"
+                                },
+                                "2": {
+                                    "answer": "They are inspirational.",
+                                    "category_id": "3"
+                                },
+                                "3": {
+                                    "answer": "They are fun to watch.",
+                                    "category_id": "2"
+                                }
+                            }
+                        },
+                        "8": {
+                            "text": "How often do you buy shoes?",
+                            "answers": {
+                                "1": {
+                                    "answer": "Once every 6 months.",
+                                    "category_id": "2"
+                                },
+                                "2": {
+                                    "answer": "Once every month.",
+                                    "category_id": "1"
+                                },
+                                "3": {
+                                    "answer": "Several times in a month.",
+                                    "category_id": "3"
+                                }
+                            }
+                        },
+                        "9": {
+                            "text": "Are you considered a trendsetter in your social group?",
+                            "answers": {
+                                "1": {
+                                    "answer": "No.",
+                                    "category_id": "2"
+                                },
+                                "2": {
+                                    "answer": "Somehow yes.",
+                                    "category_id": "1"
+                                },
+                                "3": {
+                                    "answer": "Yes.",
+                                    "category_id": "3"
+                                }
+                            }
+                        }
+                    }
+                },
+                "3": {
+                    "answer": "Shopping malls.",
+                    "category_id": "3",
+                    "questions": {
+                        "1": {
+                            "text": "Which  of the following styles best represent you?",
+                            "answers": {
+                                "1": {
+                                    "answer": "Regular.",
+                                    "category_id": "2"
+                                },
+                                "2": {
+                                    "answer": "High Fashion.",
+                                    "category_id": "3"
+                                },
+                                "3": {
+                                    "answer": "Casual.",
+                                    "category_id": "1"
+                                }
+                            }
+                        },
+                        "2": {
+                            "text": "How much are you willing to pay for a high quality t-shirt?",
+                            "answers": {
+                                "1": {
+                                    "answer": "Under 20$.",
+                                    "category_id": "2"
+                                },
+                                "2": {
+                                    "answer": "20$-40$",
+                                    "category_id": "1"
+                                },
+                                "3": {
+                                    "answer": "40$ and more.",
+                                    "category_id": "3"
+                                }
+                            }
+                        },
+                        "3": {
+                            "text": "What would inspire you to buy a jean?",
+                            "answers": {
+                                "1": {
+                                    "answer": "30% off sale.",
+                                    "category_id": "2"
+                                },
+                                "2": {
+                                    "answer": "Material & Fabric.",
+                                    "category_id": "1"
+                                },
+                                "3": {
+                                    "answer": "Looks/Branding.",
+                                    "category_id": "3"
+                                }
+                            }
+                        },
+                        "4": {
+                            "text": "Favorite fashion time?",
+                            "answers": {
+                                "1": {
+                                    "answer": "End of season.",
+                                    "category_id": "2"
+                                },
+                                "2": {
+                                    "answer": "Anytime.",
+                                    "category_id": "1"
+                                },
+                                "3": {
+                                    "answer": "Start of season.",
+                                    "category_id": "3"
+                                }
+                            }
+                        },
+                        "5": {
+                            "text": "Your favorite fabric is?",
+                            "answers": {
+                                "1": {
+                                    "answer": "Cotton.",
+                                    "category_id": "1"
+                                },
+                                "2": {
+                                    "answer": "Silk.",
+                                    "category_id": "3"
+                                },
+                                "3": {
+                                    "answer": "Jeans.",
+                                    "category_id": "2"
+                                }
+                            }
+                        },
+                        "6": {
+                            "text": "Are you concerned about prices and wearability?",
+                            "answers": {
+                                "1": {
+                                    "answer": "Yes.",
+                                    "category_id": "2"
+                                },
+                                "2": {
+                                    "answer": "Sometimes.",
+                                    "category_id": "1"
+                                },
+                                "3": {
+                                    "answer": "Never.",
+                                    "category_id": "3"
+                                }
+                            }
+                        },
+                        "7": {
+                            "text": "Who do you usually go shopping with?",
+                            "answers": {
+                                "1": {
+                                    "answer": "Family.",
+                                    "category_id": "2"
+                                },
+                                "2": {
+                                    "answer": "Alone.",
+                                    "category_id": "1"
+                                },
+                                "3": {
+                                    "answer": "Friends.",
+                                    "category_id": "3"
+                                }
+                            }
+                        },
+                        "8": {
+                            "text": "Are you afraid to be the first to try something new?",
+                            "answers": {
+                                "1": {
+                                    "answer": "Somehow.",
+                                    "category_id": "1"
+                                },
+                                "2": {
+                                    "answer": "Dfinitly not.",
+                                    "category_id": "3"
+                                },
+                                "3": {
+                                    "answer": "Yes.",
+                                    "category_id": "2"
+                                }
+                            }
+                        },
+                        "9": {
+                            "text": "Do you follow current fashion trends?",
+                            "answers": {
+                                "1": {
+                                    "answer": "Yes, But I don't really follow them.",
+                                    "category_id": "2"
+                                },
+                                "2": {
+                                    "answer": "Yes, I Follow them closely.",
+                                    "category_id": "3"
+                                },
+                                "3": {
+                                    "answer": "",
+                                    "category_id": "1"
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        },
+        "3": {
+            "text": "How much does shopping often cost you?",
+            "answers": {
+                "1": {
+                    "answer": "1000$+",
+                    "category_id": "3",
+                    "questions": {
+                        "1": {
+                            "text": "Where do you go shopping in 2 hours?",
+                            "answers": {
+                                "1": {
+                                    "answer": "Thrift stores.",
+                                    "category_id": "2"
+                                },
+                                "2": {
+                                    "answer": "Fast Fashion  Brands.",
+                                    "category_id": "1"
+                                },
+                                "3": {
+                                    "answer": "High end fashion boutiques.",
+                                    "category_id": "3"
+                                }
+                            }
+                        },
+                        "2": {
+                            "text": "How often do you go for shopping?",
+                            "answers": {
+                                "1": {
+                                    "answer": "An hour in a week.",
+                                    "category_id": "1"
+                                },
+                                "2": {
+                                    "answer": "15 days in a month.",
+                                    "category_id": "2"
+                                },
+                                "3": {
+                                    "answer": "Only Trending.",
+                                    "category_id": "3"
+                                }
+                            }
+                        },
+                        "3": {
+                            "text": "How do you usually shop?",
+                            "answers": {
+                                "1": {
+                                    "answer": "Super markets.",
+                                    "category_id": "2"
+                                },
+                                "2": {
+                                    "answer": "Online.",
+                                    "category_id": "1"
+                                },
+                                "3": {
+                                    "answer": "Shopping malls.",
+                                    "category_id": "3"
+                                }
+                            }
+                        },
+                        "4": {
+                            "text": "Do you usually look for price tags?",
+                            "answers": {
+                                "1": {
+                                    "answer": "Sometimes.",
+                                    "category_id": "1"
+                                },
+                                "2": {
+                                    "answer": "No.",
+                                    "category_id": "3"
+                                },
+                                "3": {
+                                    "answer": "Yes.",
+                                    "category_id": "2"
+                                }
+                            }
+                        },
+                        "5": {
+                            "text": "What fits do you usually look for?",
+                            "answers": {
+                                "1": {
+                                    "answer": "Oversized.",
+                                    "category_id": "1"
+                                },
+                                "2": {
+                                    "answer": "Slim fits.",
+                                    "category_id": "2"
+                                },
+                                "3": {
+                                    "answer": "Regular fits.",
+                                    "category_id": "3"
+                                }
+                            }
+                        },
+                        "6": {
+                            "text": "What colour catches your eyes the most?",
+                            "answers": {
+                                "1": {
+                                    "answer": "Neutral.",
+                                    "category_id": "1"
+                                },
+                                "2": {
+                                    "answer": "Cold-toned.",
+                                    "category_id": "3"
+                                },
+                                "3": {
+                                    "answer": "Warm-toned.",
+                                    "category_id": "2"
+                                }
+                            }
+                        },
+                        "7": {
+                            "text": "Are you concerned about fashion?",
+                            "answers": {
+                                "1": {
+                                    "answer": "Definitly.",
+                                    "category_id": "3"
+                                },
+                                "2": {
+                                    "answer": "Somehow.",
+                                    "category_id": "1"
+                                },
+                                "3": {
+                                    "answer": "No.",
+                                    "category_id": "2"
+                                }
+                            }
+                        },
+                        "8": {
+                            "text": "What type of cloths do you usually wear?",
+                            "answers": {
+                                "1": {
+                                    "answer": "Formal.",
+                                    "category_id": "2"
+                                },
+                                "2": {
+                                    "answer": "Trendy.",
+                                    "category_id": "3"
+                                },
+                                "3": {
+                                    "answer": "Casual.",
+                                    "category_id": "1"
+                                }
+                            }
+                        },
+                        "9": {
+                            "text": "Which fabric do you usually look for?",
+                            "answers": {
+                                "1": {
+                                    "answer": "Lether.",
+                                    "category_id": "1"
+                                },
+                                "2": {
+                                    "answer": "Silk.",
+                                    "category_id": "3"
+                                },
+                                "3": {
+                                    "answer": "Cotton.",
+                                    "category_id": "2"
+                                }
+                            }
+                        }
+                    }
+                },
+                "2": {
+                    "answer": "100$-500$",
+                    "category_id": "1",
+                    "questions": {
+                        "1": {
+                            "text": "What aspect of the product satisfies you?",
+                            "answers": {
+                                "1": {
+                                    "answer": "Price.",
+                                    "category_id": "2"
+                                },
+                                "2": {
+                                    "answer": "Quality.",
+                                    "category_id": "1"
+                                },
+                                "3": {
+                                    "answer": "Looks.",
+                                    "category_id": "3"
+                                }
+                            }
+                        },
+                        "2": {
+                            "text": "Which are the places you buy most of your clothes from?",
+                            "answers": {
+                                "1": {
+                                    "answer": "Fashion shows and exhibitions.",
+                                    "category_id": "3"
+                                },
+                                "2": {
+                                    "answer": "Branded retail outlets.",
+                                    "category_id": "1"
+                                },
+                                "3": {
+                                    "answer": "Supermarkets.",
+                                    "category_id": "2"
+                                }
+                            }
+                        },
+                        "3": {
+                            "text": "Fashion to you is?",
+                            "answers": {
+                                "1": {
+                                    "answer": "Money.",
+                                    "category_id": "2"
+                                },
+                                "2": {
+                                    "answer": "Looking cool and hip.",
+                                    "category_id": "1"
+                                },
+                                "3": {
+                                    "answer": "A way to express your innerself.",
+                                    "category_id": "3"
+                                }
+                            }
+                        },
+                        "4": {
+                            "text": "How much do you spend on clothings a month?",
+                            "answers": {
+                                "1": {
+                                    "answer": "Under 50$",
+                                    "category_id": "2"
+                                },
+                                "2": {
+                                    "answer": "200$+",
+                                    "category_id": "3"
+                                },
+                                "3": {
+                                    "answer": "50$-200$",
+                                    "category_id": "1"
+                                }
+                            }
+                        },
+                        "5": {
+                            "text": "Do you agree the way you look is a part of your personality?",
+                            "answers": {
+                                "1": {
+                                    "answer": "Neutral.",
+                                    "category_id": "2"
+                                },
+                                "2": {
+                                    "answer": "Strongly Agree.",
+                                    "category_id": "3"
+                                },
+                                "3": {
+                                    "answer": "Agree.",
+                                    "category_id": "1"
+                                }
+                            }
+                        },
+                        "6": {
+                            "text": "Why do you most often buy new clothes?",
+                            "answers": {
+                                "1": {
+                                    "answer": "Replacing worn-out clothes.",
+                                    "category_id": "2"
+                                },
+                                "2": {
+                                    "answer": "To enrich my wardrobe.",
+                                    "category_id": "3"
+                                },
+                                "3": {
+                                    "answer": "As a gift.",
+                                    "category_id": "1"
+                                }
+                            }
+                        },
+                        "7": {
+                            "text": "What do you think of fashion shows?",
+                            "answers": {
+                                "1": {
+                                    "answer": "They are boring.",
+                                    "category_id": "1"
+                                },
+                                "2": {
+                                    "answer": "They are inspirational.",
+                                    "category_id": "3"
+                                },
+                                "3": {
+                                    "answer": "They are fun to watch.",
+                                    "category_id": "2"
+                                }
+                            }
+                        },
+                        "8": {
+                            "text": "How often do you buy shoes?",
+                            "answers": {
+                                "1": {
+                                    "answer": "Once every 6 months.",
+                                    "category_id": "2"
+                                },
+                                "2": {
+                                    "answer": "Once every month.",
+                                    "category_id": "1"
+                                },
+                                "3": {
+                                    "answer": "Several times in a month.",
+                                    "category_id": "3"
+                                }
+                            }
+                        },
+                        "9": {
+                            "text": "Are you considered a trendsetter in your social group?",
+                            "answers": {
+                                "1": {
+                                    "answer": "No.",
+                                    "category_id": "2"
+                                },
+                                "2": {
+                                    "answer": "Somehow yes.",
+                                    "category_id": "1"
+                                },
+                                "3": {
+                                    "answer": "Yes.",
+                                    "category_id": "3"
+                                }
+                            }
+                        }
+                    }
+                },
+                "3": {
+                    "answer": "Under 100$",
+                    "category_id": "2",
+                    "questions": {
+                        "1": {
+                            "text": "Which  of the following styles best represent you?",
+                            "answers": {
+                                "1": {
+                                    "answer": "Regular.",
+                                    "category_id": "2"
+                                },
+                                "2": {
+                                    "answer": "High Fashion.",
+                                    "category_id": "3"
+                                },
+                                "3": {
+                                    "answer": "Casual.",
+                                    "category_id": "1"
+                                }
+                            }
+                        },
+                        "2": {
+                            "text": "How much are you willing to pay for a high quality t-shirt?",
+                            "answers": {
+                                "1": {
+                                    "answer": "Under 20$.",
+                                    "category_id": "2"
+                                },
+                                "2": {
+                                    "answer": "20$-40$",
+                                    "category_id": "1"
+                                },
+                                "3": {
+                                    "answer": "40$ and more.",
+                                    "category_id": "3"
+                                }
+                            }
+                        },
+                        "3": {
+                            "text": "What would inspire you to buy a jean?",
+                            "answers": {
+                                "1": {
+                                    "answer": "30% off sale.",
+                                    "category_id": "2"
+                                },
+                                "2": {
+                                    "answer": "Material & Fabric.",
+                                    "category_id": "1"
+                                },
+                                "3": {
+                                    "answer": "Looks/Branding.",
+                                    "category_id": "3"
+                                }
+                            }
+                        },
+                        "4": {
+                            "text": "Favorite fashion time?",
+                            "answers": {
+                                "1": {
+                                    "answer": "End of season.",
+                                    "category_id": "2"
+                                },
+                                "2": {
+                                    "answer": "Anytime.",
+                                    "category_id": "1"
+                                },
+                                "3": {
+                                    "answer": "Start of season.",
+                                    "category_id": "3"
+                                }
+                            }
+                        },
+                        "5": {
+                            "text": "Your favorite fabric is?",
+                            "answers": {
+                                "1": {
+                                    "answer": "Cotton.",
+                                    "category_id": "1"
+                                },
+                                "2": {
+                                    "answer": "Silk.",
+                                    "category_id": "3"
+                                },
+                                "3": {
+                                    "answer": "Jeans.",
+                                    "category_id": "2"
+                                }
+                            }
+                        },
+                        "6": {
+                            "text": "Are you concerned about prices and wearability?",
+                            "answers": {
+                                "1": {
+                                    "answer": "Yes.",
+                                    "category_id": "2"
+                                },
+                                "2": {
+                                    "answer": "Sometimes.",
+                                    "category_id": "1"
+                                },
+                                "3": {
+                                    "answer": "Never.",
+                                    "category_id": "3"
+                                }
+                            }
+                        },
+                        "7": {
+                            "text": "Who do you usually go shopping with?",
+                            "answers": {
+                                "1": {
+                                    "answer": "Family.",
+                                    "category_id": "2"
+                                },
+                                "2": {
+                                    "answer": "Alone.",
+                                    "category_id": "1"
+                                },
+                                "3": {
+                                    "answer": "Friends.",
+                                    "category_id": "3"
+                                }
+                            }
+                        },
+                        "8": {
+                            "text": "Are you afraid to be the first to try something new?",
+                            "answers": {
+                                "1": {
+                                    "answer": "Somehow.",
+                                    "category_id": "1"
+                                },
+                                "2": {
+                                    "answer": "Dfinitly not.",
+                                    "category_id": "3"
+                                },
+                                "3": {
+                                    "answer": "Yes.",
+                                    "category_id": "2"
+                                }
+                            }
+                        },
+                        "9": {
+                            "text": "Do you follow current fashion trends?",
+                            "answers": {
+                                "1": {
+                                    "answer": "Yes, But I don't really follow them.",
+                                    "category_id": "2"
+                                },
+                                "2": {
+                                    "answer": "Yes, I Follow them closely.",
+                                    "category_id": "3"
+                                },
+                                "3": {
+                                    "answer": "",
+                                    "category_id": "1"
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        },
+        "4": {
+            "text": "What aspect of the clothes satisfie you?",
+            "answers": {
+                "1": {
+                    "answer": "Quality.",
+                    "category_id": "1",
+                    "questions": {
+                        "1": {
+                            "text": "Where do you go shopping in 2 hours?",
+                            "answers": {
+                                "1": {
+                                    "answer": "Thrift stores.",
+                                    "category_id": "2"
+                                },
+                                "2": {
+                                    "answer": "Fast Fashion  Brands.",
+                                    "category_id": "1"
+                                },
+                                "3": {
+                                    "answer": "High end fashion boutiques.",
+                                    "category_id": "3"
+                                }
+                            }
+                        },
+                        "2": {
+                            "text": "How much does it often costs you?",
+                            "answers": {
+                                "1": {
+                                    "answer": "100$+",
+                                    "category_id": "3"
+                                },
+                                "2": {
+                                    "answer": "50$-100$",
+                                    "category_id": "1"
+                                },
+                                "3": {
+                                    "answer": "Under 50$",
+                                    "category_id": "2"
+                                }
+                            }
+                        },
+                        "3": {
+                            "text": "How do you usually shop?",
+                            "answers": {
+                                "1": {
+                                    "answer": "Super markets.",
+                                    "category_id": "2"
+                                },
+                                "2": {
+                                    "answer": "Online.",
+                                    "category_id": "1"
+                                },
+                                "3": {
+                                    "answer": "Shopping malls.",
+                                    "category_id": "3"
+                                }
+                            }
+                        },
+                        "4": {
+                            "text": "Do you usually look for price tags?",
+                            "answers": {
+                                "1": {
+                                    "answer": "Sometimes.",
+                                    "category_id": "1"
+                                },
+                                "2": {
+                                    "answer": "No.",
+                                    "category_id": "3"
+                                },
+                                "3": {
+                                    "answer": "Yes.",
+                                    "category_id": "2"
+                                }
+                            }
+                        },
+                        "5": {
+                            "text": "What fits do you usually look for?",
+                            "answers": {
+                                "1": {
+                                    "answer": "Oversized.",
+                                    "category_id": "1"
+                                },
+                                "2": {
+                                    "answer": "Slim fits.",
+                                    "category_id": "2"
+                                },
+                                "3": {
+                                    "answer": "Regular fits.",
+                                    "category_id": "3"
+                                }
+                            }
+                        },
+                        "6": {
+                            "text": "What colour catches your eyes the most?",
+                            "answers": {
+                                "1": {
+                                    "answer": "Neutral.",
+                                    "category_id": "1"
+                                },
+                                "2": {
+                                    "answer": "Cold-toned.",
+                                    "category_id": "3"
+                                },
+                                "3": {
+                                    "answer": "Warm-toned.",
+                                    "category_id": "2"
+                                }
+                            }
+                        },
+                        "7": {
+                            "text": "Are you concerned about fashion?",
+                            "answers": {
+                                "1": {
+                                    "answer": "Definitly.",
+                                    "category_id": "3"
+                                },
+                                "2": {
+                                    "answer": "Somehow.",
+                                    "category_id": "1"
+                                },
+                                "3": {
+                                    "answer": "No.",
+                                    "category_id": "2"
+                                }
+                            }
+                        },
+                        "8": {
+                            "text": "What type of cloths do you usually wear?",
+                            "answers": {
+                                "1": {
+                                    "answer": "Formal.",
+                                    "category_id": "2"
+                                },
+                                "2": {
+                                    "answer": "Trendy.",
+                                    "category_id": "3"
+                                },
+                                "3": {
+                                    "answer": "Casual.",
+                                    "category_id": "1"
+                                }
+                            }
+                        },
+                        "9": {
+                            "text": "Which fabric do you usually look for?",
+                            "answers": {
+                                "1": {
+                                    "answer": "Lether.",
+                                    "category_id": "1"
+                                },
+                                "2": {
+                                    "answer": "Silk.",
+                                    "category_id": "3"
+                                },
+                                "3": {
+                                    "answer": "Cotton.",
+                                    "category_id": "2"
+                                }
+                            }
+                        }
+                    }
+                },
+                "2": {
+                    "answer": "Price.",
+                    "category_id": "2",
+                    "questions": {
+                        "1": {
+                            "text": "How often do you go for shopping?",
+                            "answers": {
+                                "1": {
+                                    "answer": "5 hours in a week.",
+                                    "category_id": "1"
+                                },
+                                "2": {
+                                    "answer": "10 days in a month.",
+                                    "category_id": "2"
+                                },
+                                "3": {
+                                    "answer": "New advertisement/arrivals.",
+                                    "category_id": "3"
+                                }
+                            }
+                        },
+                        "2": {
+                            "text": "Which are the places you buy most of your clothes from?",
+                            "answers": {
+                                "1": {
+                                    "answer": "Fashion shows and exhibitions.",
+                                    "category_id": "3"
+                                },
+                                "2": {
+                                    "answer": "Branded retail outlets.",
+                                    "category_id": "1"
+                                },
+                                "3": {
+                                    "answer": "Supermarkets.",
+                                    "category_id": "2"
+                                }
+                            }
+                        },
+                        "3": {
+                            "text": "Fashion to you is?",
+                            "answers": {
+                                "1": {
+                                    "answer": "Money.",
+                                    "category_id": "2"
+                                },
+                                "2": {
+                                    "answer": "Looking cool and hip.",
+                                    "category_id": "1"
+                                },
+                                "3": {
+                                    "answer": "A way to express your innerself.",
+                                    "category_id": "3"
+                                }
+                            }
+                        },
+                        "4": {
+                            "text": "How much do you spend on clothings a month?",
+                            "answers": {
+                                "1": {
+                                    "answer": "Under 50$",
+                                    "category_id": "2"
+                                },
+                                "2": {
+                                    "answer": "200$+",
+                                    "category_id": "3"
+                                },
+                                "3": {
+                                    "answer": "50$-200$",
+                                    "category_id": "1"
+                                }
+                            }
+                        },
+                        "5": {
+                            "text": "Do you agree the way you look is a part of your personality?",
+                            "answers": {
+                                "1": {
+                                    "answer": "Neutral.",
+                                    "category_id": "2"
+                                },
+                                "2": {
+                                    "answer": "Strongly Agree.",
+                                    "category_id": "3"
+                                },
+                                "3": {
+                                    "answer": "Agree.",
+                                    "category_id": "1"
+                                }
+                            }
+                        },
+                        "6": {
+                            "text": "Why do you most often buy new clothes?",
+                            "answers": {
+                                "1": {
+                                    "answer": "Replacing worn-out clothes.",
+                                    "category_id": "2"
+                                },
+                                "2": {
+                                    "answer": "To enrich my wardrobe.",
+                                    "category_id": "3"
+                                },
+                                "3": {
+                                    "answer": "As a gift.",
+                                    "category_id": "1"
+                                }
+                            }
+                        },
+                        "7": {
+                            "text": "What do you think of fashion shows?",
+                            "answers": {
+                                "1": {
+                                    "answer": "They are boring.",
+                                    "category_id": "1"
+                                },
+                                "2": {
+                                    "answer": "They are inspirational.",
+                                    "category_id": "3"
+                                },
+                                "3": {
+                                    "answer": "They are fun to watch.",
+                                    "category_id": "2"
+                                }
+                            }
+                        },
+                        "8": {
+                            "text": "How often do you buy shoes?",
+                            "answers": {
+                                "1": {
+                                    "answer": "Once every 6 months.",
+                                    "category_id": "2"
+                                },
+                                "2": {
+                                    "answer": "Once every month.",
+                                    "category_id": "1"
+                                },
+                                "3": {
+                                    "answer": "Several times in a month.",
+                                    "category_id": "3"
+                                }
+                            }
+                        },
+                        "9": {
+                            "text": "Are you considered a trendsetter in your social group?",
+                            "answers": {
+                                "1": {
+                                    "answer": "No.",
+                                    "category_id": "2"
+                                },
+                                "2": {
+                                    "answer": "Somehow yes.",
+                                    "category_id": "1"
+                                },
+                                "3": {
+                                    "answer": "Yes.",
+                                    "category_id": "3"
+                                }
+                            }
+                        }
+                    }
+                },
+                "3": {
+                    "answer": "Looks.",
+                    "category_id": "3",
+                    "questions": {
+                        "1": {
+                            "text": "Which  of the following styles best represent you?",
+                            "answers": {
+                                "1": {
+                                    "answer": "Regular.",
+                                    "category_id": "2"
+                                },
+                                "2": {
+                                    "answer": "High Fashion.",
+                                    "category_id": "3"
+                                },
+                                "3": {
+                                    "answer": "Casual.",
+                                    "category_id": "1"
+                                }
+                            }
+                        },
+                        "2": {
+                            "text": "How much are you willing to pay for a high quality t-shirt?",
+                            "answers": {
+                                "1": {
+                                    "answer": "Under 20$.",
+                                    "category_id": "2"
+                                },
+                                "2": {
+                                    "answer": "20$-40$",
+                                    "category_id": "1"
+                                },
+                                "3": {
+                                    "answer": "40$ and more.",
+                                    "category_id": "3"
+                                }
+                            }
+                        },
+                        "3": {
+                            "text": "What would inspire you to buy a jean?",
+                            "answers": {
+                                "1": {
+                                    "answer": "30% off sale.",
+                                    "category_id": "2"
+                                },
+                                "2": {
+                                    "answer": "Material & Fabric.",
+                                    "category_id": "1"
+                                },
+                                "3": {
+                                    "answer": "Looks/Branding.",
+                                    "category_id": "3"
+                                }
+                            }
+                        },
+                        "4": {
+                            "text": "Favorite fashion time?",
+                            "answers": {
+                                "1": {
+                                    "answer": "End of season.",
+                                    "category_id": "2"
+                                },
+                                "2": {
+                                    "answer": "Anytime.",
+                                    "category_id": "1"
+                                },
+                                "3": {
+                                    "answer": "Start of season.",
+                                    "category_id": "3"
+                                }
+                            }
+                        },
+                        "5": {
+                            "text": "Your favorite fabric is?",
+                            "answers": {
+                                "1": {
+                                    "answer": "Cotton.",
+                                    "category_id": "1"
+                                },
+                                "2": {
+                                    "answer": "Silk.",
+                                    "category_id": "3"
+                                },
+                                "3": {
+                                    "answer": "Jeans.",
+                                    "category_id": "2"
+                                }
+                            }
+                        },
+                        "6": {
+                            "text": "Are you concerned about prices and wearability?",
+                            "answers": {
+                                "1": {
+                                    "answer": "Yes.",
+                                    "category_id": "2"
+                                },
+                                "2": {
+                                    "answer": "Sometimes.",
+                                    "category_id": "1"
+                                },
+                                "3": {
+                                    "answer": "Never.",
+                                    "category_id": "3"
+                                }
+                            }
+                        },
+                        "7": {
+                            "text": "Who do you usually go shopping with?",
+                            "answers": {
+                                "1": {
+                                    "answer": "Family.",
+                                    "category_id": "2"
+                                },
+                                "2": {
+                                    "answer": "Alone.",
+                                    "category_id": "1"
+                                },
+                                "3": {
+                                    "answer": "Friends.",
+                                    "category_id": "3"
+                                }
+                            }
+                        },
+                        "8": {
+                            "text": "Are you afraid to be the first to try something new?",
+                            "answers": {
+                                "1": {
+                                    "answer": "Somehow.",
+                                    "category_id": "1"
+                                },
+                                "2": {
+                                    "answer": "Dfinitly not.",
+                                    "category_id": "3"
+                                },
+                                "3": {
+                                    "answer": "Yes.",
+                                    "category_id": "2"
+                                }
+                            }
+                        },
+                        "9": {
+                            "text": "Do you follow current fashion trends?",
+                            "answers": {
+                                "1": {
+                                    "answer": "Yes, But I don't really follow them.",
+                                    "category_id": "2"
+                                },
+                                "2": {
+                                    "answer": "Yes, I Follow them closely.",
+                                    "category_id": "3"
+                                },
+                                "3": {
+                                    "answer": "",
+                                    "category_id": "1"
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        },
+        "5": {
+            "text": "Which  of the following styles best represent you?",
+            "answers": {
+                "1": {
+                    "answer": "Casual.",
+                    "category_id": "1",
+                    "questions": {
+                        "1": {
+                            "text": "Where do you go shopping in 2 hours?",
+                            "answers": {
+                                "1": {
+                                    "answer": "Thrift stores.",
+                                    "category_id": "2"
+                                },
+                                "2": {
+                                    "answer": "Fast Fashion  Brands.",
+                                    "category_id": "1"
+                                },
+                                "3": {
+                                    "answer": "High end fashion boutiques.",
+                                    "category_id": "3"
+                                }
+                            }
+                        },
+                        "2": {
+                            "text": "How much does it often costs you?",
+                            "answers": {
+                                "1": {
+                                    "answer": "100$+",
+                                    "category_id": "3"
+                                },
+                                "2": {
+                                    "answer": "50$-100$",
+                                    "category_id": "1"
+                                },
+                                "3": {
+                                    "answer": "Under 50$",
+                                    "category_id": "2"
+                                }
+                            }
+                        },
+                        "3": {
+                            "text": "How do you usually shop?",
+                            "answers": {
+                                "1": {
+                                    "answer": "Super markets.",
+                                    "category_id": "2"
+                                },
+                                "2": {
+                                    "answer": "Online.",
+                                    "category_id": "1"
+                                },
+                                "3": {
+                                    "answer": "Shopping malls.",
+                                    "category_id": "3"
+                                }
+                            }
+                        },
+                        "4": {
+                            "text": "Do you usually look for price tags?",
+                            "answers": {
+                                "1": {
+                                    "answer": "Sometimes.",
+                                    "category_id": "1"
+                                },
+                                "2": {
+                                    "answer": "No.",
+                                    "category_id": "3"
+                                },
+                                "3": {
+                                    "answer": "Yes.",
+                                    "category_id": "2"
+                                }
+                            }
+                        },
+                        "5": {
+                            "text": "What fits do you usually look for?",
+                            "answers": {
+                                "1": {
+                                    "answer": "Oversized.",
+                                    "category_id": "1"
+                                },
+                                "2": {
+                                    "answer": "Slim fits.",
+                                    "category_id": "2"
+                                },
+                                "3": {
+                                    "answer": "Regular fits.",
+                                    "category_id": "3"
+                                }
+                            }
+                        },
+                        "6": {
+                            "text": "What colour catches your eyes the most?",
+                            "answers": {
+                                "1": {
+                                    "answer": "Neutral.",
+                                    "category_id": "1"
+                                },
+                                "2": {
+                                    "answer": "Cold-toned.",
+                                    "category_id": "3"
+                                },
+                                "3": {
+                                    "answer": "Warm-toned.",
+                                    "category_id": "2"
+                                }
+                            }
+                        },
+                        "7": {
+                            "text": "Are you concerned about fashion?",
+                            "answers": {
+                                "1": {
+                                    "answer": "Definitly.",
+                                    "category_id": "3"
+                                },
+                                "2": {
+                                    "answer": "Somehow.",
+                                    "category_id": "1"
+                                },
+                                "3": {
+                                    "answer": "No.",
+                                    "category_id": "2"
+                                }
+                            }
+                        },
+                        "8": {
+                            "text": "What type of cloths do you usually wear?",
+                            "answers": {
+                                "1": {
+                                    "answer": "Formal.",
+                                    "category_id": "2"
+                                },
+                                "2": {
+                                    "answer": "Trendy.",
+                                    "category_id": "3"
+                                },
+                                "3": {
+                                    "answer": "Casual.",
+                                    "category_id": "1"
+                                }
+                            }
+                        },
+                        "9": {
+                            "text": "Which fabric do you usually look for?",
+                            "answers": {
+                                "1": {
+                                    "answer": "Lether.",
+                                    "category_id": "1"
+                                },
+                                "2": {
+                                    "answer": "Silk.",
+                                    "category_id": "3"
+                                },
+                                "3": {
+                                    "answer": "Cotton.",
+                                    "category_id": "2"
+                                }
+                            }
+                        }
+                    }
+                },
+                "2": {
+                    "answer": "Regular.",
+                    "category_id": "2",
+                    "questions": {
+                        "1": {
+                            "text": "What aspect of the product satisfies you?",
+                            "answers": {
+                                "1": {
+                                    "answer": "Price.",
+                                    "category_id": "2"
+                                },
+                                "2": {
+                                    "answer": "Quality.",
+                                    "category_id": "1"
+                                },
+                                "3": {
+                                    "answer": "Looks.",
+                                    "category_id": "3"
+                                }
+                            }
+                        },
+                        "2": {
+                            "text": "Which are the places you buy most of your clothes from?",
+                            "answers": {
+                                "1": {
+                                    "answer": "Fashion shows and exhibitions.",
+                                    "category_id": "3"
+                                },
+                                "2": {
+                                    "answer": "Branded retail outlets.",
+                                    "category_id": "1"
+                                },
+                                "3": {
+                                    "answer": "Supermarkets.",
+                                    "category_id": "2"
+                                }
+                            }
+                        },
+                        "3": {
+                            "text": "Fashion to you is?",
+                            "answers": {
+                                "1": {
+                                    "answer": "Money.",
+                                    "category_id": "2"
+                                },
+                                "2": {
+                                    "answer": "Looking cool and hip.",
+                                    "category_id": "1"
+                                },
+                                "3": {
+                                    "answer": "A way to express your innerself.",
+                                    "category_id": "3"
+                                }
+                            }
+                        },
+                        "4": {
+                            "text": "How much do you spend on clothings a month?",
+                            "answers": {
+                                "1": {
+                                    "answer": "Under 50$",
+                                    "category_id": "2"
+                                },
+                                "2": {
+                                    "answer": "200$+",
+                                    "category_id": "3"
+                                },
+                                "3": {
+                                    "answer": "50$-200$",
+                                    "category_id": "1"
+                                }
+                            }
+                        },
+                        "5": {
+                            "text": "Do you agree the way you look is a part of your personality?",
+                            "answers": {
+                                "1": {
+                                    "answer": "Neutral.",
+                                    "category_id": "2"
+                                },
+                                "2": {
+                                    "answer": "Strongly Agree.",
+                                    "category_id": "3"
+                                },
+                                "3": {
+                                    "answer": "Agree.",
+                                    "category_id": "1"
+                                }
+                            }
+                        },
+                        "6": {
+                            "text": "Why do you most often buy new clothes?",
+                            "answers": {
+                                "1": {
+                                    "answer": "Replacing worn-out clothes.",
+                                    "category_id": "2"
+                                },
+                                "2": {
+                                    "answer": "To enrich my wardrobe.",
+                                    "category_id": "3"
+                                },
+                                "3": {
+                                    "answer": "As a gift.",
+                                    "category_id": "1"
+                                }
+                            }
+                        },
+                        "7": {
+                            "text": "What do you think of fashion shows?",
+                            "answers": {
+                                "1": {
+                                    "answer": "They are boring.",
+                                    "category_id": "1"
+                                },
+                                "2": {
+                                    "answer": "They are inspirational.",
+                                    "category_id": "3"
+                                },
+                                "3": {
+                                    "answer": "They are fun to watch.",
+                                    "category_id": "2"
+                                }
+                            }
+                        },
+                        "8": {
+                            "text": "How often do you buy shoes?",
+                            "answers": {
+                                "1": {
+                                    "answer": "Once every 6 months.",
+                                    "category_id": "2"
+                                },
+                                "2": {
+                                    "answer": "Once every month.",
+                                    "category_id": "1"
+                                },
+                                "3": {
+                                    "answer": "Several times in a month.",
+                                    "category_id": "3"
+                                }
+                            }
+                        },
+                        "9": {
+                            "text": "Are you considered a trendsetter in your social group?",
+                            "answers": {
+                                "1": {
+                                    "answer": "No.",
+                                    "category_id": "2"
+                                },
+                                "2": {
+                                    "answer": "Somehow yes.",
+                                    "category_id": "1"
+                                },
+                                "3": {
+                                    "answer": "Yes.",
+                                    "category_id": "3"
+                                }
+                            }
+                        }
+                    }
+                },
+                "3": {
+                    "answer": "High Fashion.",
+                    "category_id": "3",
+                    "questions": {
+                        "1": {
+                            "text": "How often do you go for shopping?",
+                            "answers": {
+                                "1": {
+                                    "answer": "Rarely.",
+                                    "category_id": "1"
+                                },
+                                "2": {
+                                    "answer": "On my free time.",
+                                    "category_id": "2"
+                                },
+                                "3": {
+                                    "answer": "Casually.",
+                                    "category_id": "3"
+                                }
+                            }
+                        },
+                        "2": {
+                            "text": "How much are you willing to pay for a high quality t-shirt?",
+                            "answers": {
+                                "1": {
+                                    "answer": "Under 20$.",
+                                    "category_id": "2"
+                                },
+                                "2": {
+                                    "answer": "20$-40$",
+                                    "category_id": "1"
+                                },
+                                "3": {
+                                    "answer": "40$ and more.",
+                                    "category_id": "3"
+                                }
+                            }
+                        },
+                        "3": {
+                            "text": "What would inspire you to buy a jean?",
+                            "answers": {
+                                "1": {
+                                    "answer": "30% off sale.",
+                                    "category_id": "2"
+                                },
+                                "2": {
+                                    "answer": "Material & Fabric.",
+                                    "category_id": "1"
+                                },
+                                "3": {
+                                    "answer": "Looks/Branding.",
+                                    "category_id": "3"
+                                }
+                            }
+                        },
+                        "4": {
+                            "text": "Favorite fashion time?",
+                            "answers": {
+                                "1": {
+                                    "answer": "End of season.",
+                                    "category_id": "2"
+                                },
+                                "2": {
+                                    "answer": "Anytime.",
+                                    "category_id": "1"
+                                },
+                                "3": {
+                                    "answer": "Start of season.",
+                                    "category_id": "3"
+                                }
+                            }
+                        },
+                        "5": {
+                            "text": "Your favorite fabric is?",
+                            "answers": {
+                                "1": {
+                                    "answer": "Cotton.",
+                                    "category_id": "1"
+                                },
+                                "2": {
+                                    "answer": "Silk.",
+                                    "category_id": "3"
+                                },
+                                "3": {
+                                    "answer": "Jeans.",
+                                    "category_id": "2"
+                                }
+                            }
+                        },
+                        "6": {
+                            "text": "Are you concerned about prices and wearability?",
+                            "answers": {
+                                "1": {
+                                    "answer": "Yes.",
+                                    "category_id": "2"
+                                },
+                                "2": {
+                                    "answer": "Sometimes.",
+                                    "category_id": "1"
+                                },
+                                "3": {
+                                    "answer": "Never.",
+                                    "category_id": "3"
+                                }
+                            }
+                        },
+                        "7": {
+                            "text": "Who do you usually go shopping with?",
+                            "answers": {
+                                "1": {
+                                    "answer": "Family.",
+                                    "category_id": "2"
+                                },
+                                "2": {
+                                    "answer": "Alone.",
+                                    "category_id": "1"
+                                },
+                                "3": {
+                                    "answer": "Friends.",
+                                    "category_id": "3"
+                                }
+                            }
+                        },
+                        "8": {
+                            "text": "Are you afraid to be the first to try something new?",
+                            "answers": {
+                                "1": {
+                                    "answer": "Somehow.",
+                                    "category_id": "1"
+                                },
+                                "2": {
+                                    "answer": "Dfinitly not.",
+                                    "category_id": "3"
+                                },
+                                "3": {
+                                    "answer": "Yes.",
+                                    "category_id": "2"
+                                }
+                            }
+                        },
+                        "9": {
+                            "text": "Do you follow current fashion trends?",
+                            "answers": {
+                                "1": {
+                                    "answer": "Yes, But I don't really follow them.",
+                                    "category_id": "2"
+                                },
+                                "2": {
+                                    "answer": "Yes, I Follow them closely.",
+                                    "category_id": "3"
+                                },
+                                "3": {
+                                    "answer": "",
+                                    "category_id": "1"
+                                }
+                            }
+                        }
+                    }
+                }
+            }
         }
     }
 }

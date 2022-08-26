@@ -8,7 +8,8 @@
 
     <!-- Copyright -->
     <div class="mb-3 mb-md-0">
-      Copyright © {{ now()->year }}. All rights reserved.
+      Copyright © {{ now()->year }}. Crafted with <span class="text-danger">❤</span> by <a
+        href="https://github.com/IlyasKohistani" class="fw-bold text-muted">Ilyas Kohistani</a>.
     </div>
     <!-- Copyright -->
 

@@ -2,6 +2,7 @@
 
 namespace App\Http\Controllers;
 
+use App\Http\Requests\survey\SurveyRequest;
 use App\Models\Answer;
 use App\Models\Survey;
 use Illuminate\Http\Request;
@@ -67,14 +68,9 @@ class SurveyController extends Controller
      * @param  \Illuminate\Http\Request  $request
      * @return \Illuminate\Http\Response
      */
-    public function store(Request $request)
+    public function store(SurveyRequest $request)
     {
-        $data = $request->validate([
-            'answers' => ['required', 'array', 'min:1'],
-            'answers.*.answers' => ['required', 'array', 'min:9'],
-            'answers.*.answers.*.category_id' => ['required'],
-            'answers.*.answers.*.answer' => ['required']
-        ]);
+        $data = $request->all();
 
         // Get the resulted array from data
         $preparedData = $this->prepareResultAnswers($data["answers"]);
