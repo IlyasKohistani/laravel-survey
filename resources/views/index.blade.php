@@ -1,16 +1,15 @@
-@extends('layouts.app')
+@extends('layouts.app', ["full_page_container" => true])
 
 @section('title', 'Sign In')
 
 
 @section('content')
-<div class="container flex-grow-1 py-5">
-    <div class="row d-flex align-items-center justify-content-center flex-grow-1">
+<div class="container  d-flex align-items-center justify-content-center flex-grow-1 py-5">
+    <div class="row">
         <div class="col-md-8 col-lg-7 col-xl-6">
-            <img src="https://mdbcdn.b-cdn.net/img/Photos/new-templates/bootstrap-login-form/draw2.svg"
-                class="img-fluid" alt="Phone image">
+            <img src="{{ asset('img/user-account.svg') }}" class="img-fluid" alt="Phone image">
         </div>
-        <div class="col-md-7 col-lg-5 col-xl-5 offset-xl-1">
+        <div class="col-md-7 col-lg-5 col-xl-5 offset-xl-1 d-flex flex-column justify-content-center">
             <form action="{{ route('auth.authenticate') }}" method="post">
                 @csrf
                 <div class="d-flex align-items-center mb-3 pb-1">

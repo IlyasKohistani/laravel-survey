@@ -24,14 +24,23 @@
 
   <section class="vh-100 d-flex flex-column justify-content-between">
 
+    @if (!isset($full_page_container))
+    <!--  Footer -->
+    @include('layouts.navbar')
+    <!-- / Footer -->
+    @endif
+
     <!--  Content -->
     @yield('content')
     <!-- / Content -->
 
 
+    @if (!isset($full_page_container))
     <!--  Footer -->
     @include('layouts.footer')
     <!-- / Footer -->
+    @endif
+
   </section>
 
 

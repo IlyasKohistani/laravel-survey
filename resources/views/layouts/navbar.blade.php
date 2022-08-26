@@ -22,11 +22,26 @@
           <a class="nav-link" href="{{ route('surveys.take') }}" id="nav_take_survey"> Take Survey</a>
         </li>
       </ul>
-      <!-- Left links -->
-
-      <div>
-        <a class="btn btn-outline-danger btn-sm btn-floating" href="{{ route('auth.logout') }}" role="button"><i
-            class="fa fa-sign-out-alt" style="margin-top: 7px"></i></a>
+    </div>
+    <!-- Left links -->
+    <div class="d-flex align-items-center">
+      <a class="btn btn-outline-danger btn-sm btn-floating me-3" href="{{ route('auth.logout') }}" role="button"><i
+          class="fa fa-sign-out-alt" style="margin-top: 7px"></i></a>
+      <div class="dropdown">
+        <a class="dropdown-toggle d-flex align-items-center hidden-arrow" href="javascript:void(0)"
+          id="navbarDropdownMenuAvatar" role="button" data-mdb-toggle="dropdown" aria-expanded="false">
+          <img src="{{ asset('img/no-pic.svg') }}" class="rounded-circle" height="28"
+            alt="Black and White Portrait of a Man" loading="lazy">
+        </a>
+        <ul class="dropdown-menu dropdown-menu-end" aria-labelledby="navbarDropdownMenuAvatar"
+          data-popper-placement="null" data-mdb-popper="none">
+          <li>
+            <span class="dropdown-item fw-bold border-bottom border-1"> {{ auth()->user()->name }}</span>
+          </li>
+          <li>
+            <a class="dropdown-item" href="{{ route('auth.logout') }}">Logout</a>
+          </li>
+        </ul>
       </div>
     </div>
     <!-- Collapsible wrapper -->
