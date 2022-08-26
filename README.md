@@ -1,6 +1,6 @@
 # Shop Packages Maatwebsite/excel
 
-[![GitHub Stars](https://img.shields.io/github/stars/IlyasKohistani/laravel-survey.svg)](https://github.com/IlyasKohistani/laravel-survey/stargazers) [![GitHub Issues](https://img.shields.io/github/issues/IlyasKohistani/laravel-survey.svg)](https://github.com/IlyasKohistani/laravel-survey/issues) [![Current Version](https://img.shields.io/badge/version-1.0.0-green.svg)](https://github.com/IlyasKohistani/laravel-survey) [![Live Demo](https://img.shields.io/badge/demo-online-green.svg)](https://shop-packages.000webhostapp.com/)
+[![GitHub Stars](https://img.shields.io/github/stars/IlyasKohistani/laravel-survey.svg)](https://github.com/IlyasKohistani/laravel-survey/stargazers) [![GitHub Issues](https://img.shields.io/github/issues/IlyasKohistani/laravel-survey.svg)](https://github.com/IlyasKohistani/laravel-survey/issues) [![Current Version](https://img.shields.io/badge/version-1.0.0-green.svg)](https://github.com/IlyasKohistani/laravel-survey)
 
 A simple survey project. You can take a survey and see what kind of shoppers you are. there are three kind of shoppers in this system Fast shoppers, Value shoppers, and Inspiration shoppers. You are 100% allowed to use this webpage for both personal and commercial use, but NOT to claim it as your own.
 
