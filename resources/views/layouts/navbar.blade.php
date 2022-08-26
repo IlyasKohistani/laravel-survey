@@ -13,7 +13,7 @@
       <!-- Left links -->
       <ul class="navbar-nav me-auto mb-2 mb-lg-0">
         <li class="nav-item">
-          <a class="nav-link" href="{{ route('dashboard.index') }}" id="nav_dashboard">Dashboard</a>
+          <a class="nav-link" href="{{ route('surveys.dashboard') }}" id="nav_dashboard">Dashboard</a>
         </li>
         <li class="nav-item">
           <a class="nav-link" href="{{ route('surveys.index') }}" id="nav_surveys"> Latest Surveys</a>

@@ -8,7 +8,7 @@
 <!-- Navbar -->
 @include('layouts.navbar')
 <!-- /Navbar -->
-<div class="h-100 mt-4">
+<div class="flex-grow-1 mt-4">
   <div class="d-flex justify-content-center align-items-center">
     <div>
       <canvas id="allUsersResult"></canvas>
@@ -24,6 +24,9 @@
 <script type="text/javascript">
   // Make Menu Link Active
   document.getElementById('nav_dashboard').classList.add('active');
+  var allSurveysData = {!! $all_surveys !!};
+  var currentUserSurveysData = {!! $user_surveys !!};
+
   loadData();
 
   // Load data from JSON file
@@ -38,7 +41,9 @@
     const categories = data.categories;
 
     // Extract Labels for chart.js
-    let labels  =   extractLabels(categories);
+    const extractedCategoryData =   extractLabelsAndIDS(categories);
+    labels = extractedCategoryData.labels;
+    ids = extractedCategoryData.ids;
 
 
     const chartData = {
@@ -51,7 +56,27 @@
           'rgb(255, 205, 86)'
         ],
         hoverOffset: 4,
-        data: [0, 10, 5],
+        data: [0, 0, 0],
+        tooltip: {
+        callbacks: {
+            label: function(context) {
+                let label = context.label;
+                let value = context.formattedValue;
+
+                if (!label)
+                    label = 'Unknown'
+
+                let sum = 0;
+                let dataArr = context.chart.data.datasets[0].data;
+                dataArr.map(data => {
+                    sum += Number(data);
+                });
+
+                let percentage = (value * 100 / sum).toFixed(2) + '%';
+                return label + ": " + percentage;
+            }
+        }
+    }
       }]
     };
 
@@ -74,24 +99,38 @@
       document.getElementById('allUsersResult'),
       config('All Users Result')
     );
-
+    
     const currentUserResultChart = new Chart(
       document.getElementById('currentUserResult'),
       config('Your Result')
     );
 
+    var userSurveysDataset = [];
+    var allSurveysDataset = [];
+    
+    ids.forEach(id => {
+      userSurveysDataset.push(currentUserSurveysData[id]??0);
+     allSurveysDataset.push(allSurveysData[id]??0);
+    });
+    allUsersResultChart.data.datasets[0].data = allSurveysDataset
+    allUsersResultChart.update();
+    currentUserResultChart.data.datasets[0].data = userSurveysDataset
+    currentUserResultChart.update();
+
   }
 
-  function extractLabels(categories){
+  function extractLabelsAndIDS(categories){
     let labels = [];
+    let ids = [];
     // Fill labels from json data
     for(key in categories) {
       if(categories.hasOwnProperty(key)) {
            labels.push(categories[key]['text']);
            addLabelDescription(key-1, categories[key]['text'],categories[key]['description'])
+          ids.push(key);
       }
     }
-    return labels;
+    return {labels,ids};
   }
   function addLabelDescription(key, label, description){
     const colors = [

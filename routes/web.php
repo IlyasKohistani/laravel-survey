@@ -1,7 +1,6 @@
 <?php
 
 use App\Http\Controllers\AuthController;
-use App\Http\Controllers\DashboardController;
 use App\Http\Controllers\SurveyController;
 use Illuminate\Support\Facades\Route;
 
@@ -29,7 +28,8 @@ Route::middleware(['guest'])->name('auth.')->controller(AuthController::class)->
 // Authenticated Routes
 Route::middleware(['auth'])->group(function () {
     Route::get('logout', [AuthController::class, 'logout'])->name('auth.logout');
-    Route::get('dashboard', [DashboardController::class, 'index'])->name('dashboard.index');
+    Route::get('dashboard', [SurveyController::class, 'dashboard'])->name('surveys.dashboard');
     Route::get('latest-surveys', [SurveyController::class, 'index'])->name('surveys.index');
     Route::get('take-survey', [SurveyController::class, 'create'])->name('surveys.take');
+    Route::post('take-survey', [SurveyController::class, 'store'])->name('surveys.store');
 });

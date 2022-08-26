@@ -58,7 +58,7 @@ class AuthController extends Controller
             return redirect()->back()->withInput($request->all())->withErrors(['error' => 'An error occured while registering.']);
         }
 
-        return redirect()->route('dashboard.index');
+        return redirect()->route('surveys.dashboard');
     }
 
     /**
