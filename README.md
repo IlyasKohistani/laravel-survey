@@ -19,6 +19,7 @@ Whether you use this project, have learned something from it, or just like it, p
 -   Authentication
 -   Survey
 -   Find out what type of shoppers you are.
+-   Graphic displaying of results using Chart.js
 
 ---
 
