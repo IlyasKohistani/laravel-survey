@@ -1,4 +1,4 @@
-# Shop Packages Maatwebsite/excel
+# Laravel Survey with Chart.js
 
 [![GitHub Stars](https://img.shields.io/github/stars/IlyasKohistani/laravel-survey.svg)](https://github.com/IlyasKohistani/laravel-survey/stargazers) [![GitHub Issues](https://img.shields.io/github/issues/IlyasKohistani/laravel-survey.svg)](https://github.com/IlyasKohistani/laravel-survey/issues) [![Current Version](https://img.shields.io/badge/version-1.0.0-green.svg)](https://github.com/IlyasKohistani/laravel-survey)
 
